@@ -1,0 +1,23 @@
+{
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+	"name": "EM+S-Win-Dedicated Device",
+  "displayName": "Windows Dedicated Device",
+  "description": "Autopilot Profile for Dedicated devices",
+  "language": "en-GB",
+  "enrollmentStatusScreenSettings": null,
+  "extractHardwareHash": false,
+  "deviceNameTemplate": "%SERIAL%",
+  "deviceType": "windowsPc",
+  "enableWhiteGlove": false,
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "outOfBoxExperienceSettings": {
+    "hidePrivacySettings": true,
+    "hideEULA": true,
+    "userType": "standard",
+    "deviceUsageType": "singleUser",
+    "skipKeyboardSelectionPage": false,
+    "hideEscapeLink": true
+  }
+}

@@ -1,0 +1,40 @@
+{
+    "@odata.type": "#microsoft.graph.windowsUpdateForBusinessConfiguration",
+    "displayName": "CFGPFL-WIN10+11-CDS-WindowsUpdate_Fast-23.1.1",
+    "description": "CFGPFL-WIN10+11-CDS-WindowsUpdate_Fast-23.1.1",
+    "roleScopeTagIds": [
+        "0"
+    ],
+    "microsoftUpdateServiceAllowed": true,
+    "driversExcluded": false,
+    "qualityUpdatesDeferralPeriodInDays": 0,
+    "featureUpdatesDeferralPeriodInDays": 30,
+    "allowWindows11Upgrade": false,
+    "qualityUpdatesPaused": false,
+    "featureUpdatesPaused": false,
+    "businessReadyUpdatesOnly": "businessReadyOnly",
+    "skipChecksBeforeRestart": false,
+    "automaticUpdateMode": "autoInstallAtMaintenanceTime",
+    "installationSchedule": {
+        "@odata.type": "#microsoft.graph.windowsUpdateActiveHoursInstall",
+        "activeHoursStart": "08:00:00.0000000",
+        "activeHoursEnd": "18:00:00.0000000"
+    },
+    "userPauseAccess": "disabled",
+    "userWindowsUpdateScanAccess": "enabled",
+    "updateNotificationLevel": "defaultNotifications",
+    "updateWeeks": null,
+    "featureUpdatesRollbackWindowInDays": 30,
+    "deadlineForFeatureUpdatesInDays": 2,
+    "deadlineForQualityUpdatesInDays": 2,
+    "deadlineGracePeriodInDays": 7,
+    "postponeRebootUntilAfterDeadline": false,
+    "engagedRestartDeadlineInDays": null,
+    "engagedRestartSnoozeScheduleInDays": null,
+    "engagedRestartTransitionScheduleInDays": null,
+    "engagedRestartSnoozeScheduleForFeatureUpdatesInDays": null,
+    "engagedRestartTransitionScheduleForFeatureUpdatesInDays": null,
+    "autoRestartNotificationDismissal": "notConfigured",
+    "scheduleRestartWarningInHours": 2,
+    "scheduleImminentRestartWarningInMinutes": 30
+}

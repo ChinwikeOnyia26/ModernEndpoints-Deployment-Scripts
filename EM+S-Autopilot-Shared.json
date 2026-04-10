@@ -1,0 +1,23 @@
+{
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+	"name": "EM+S-Win-Shared Device",
+  "displayName": "CCMD Shared Device",
+  "description": "CC Managed Device Shared Multi User Device profile",
+  "language": "en-GB",
+  "enrollmentStatusScreenSettings": null,
+  "extractHardwareHash": false,
+  "deviceNameTemplate": "CCMD-%SERIAL%",
+  "deviceType": "windowsPc",
+  "enableWhiteGlove": false,
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "outOfBoxExperienceSettings": {
+    "hidePrivacySettings": false,
+    "hideEULA": false,
+    "userType": "standard",
+    "deviceUsageType": "shared",
+    "skipKeyboardSelectionPage": true,
+    "hideEscapeLink": false
+  }
+}
